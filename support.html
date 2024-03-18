@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupportWhithMe</title>
+    <link rel="stylesheet" href="/stili.css">
+</head>
+
+<body>
+    <main>
+        <h1>Свяжитесь со мной</h1>
+        <form action="/support.html" target="_blank">
+            <div class="field">
+                <img src="/message.svg" alt="">
+                <label for="email">Email</label>
+                <input class="d2" type="email" id="email" placeholder="Email" required>
+
+            </div>
+            <div class="field">
+                <img src="/telegram.svg" alt="">
+                <label for="Telegram">Telegram</label>
+                <input class="d2" type="text" id="Telegram" placeholder="Telegram">
+
+            </div>
+            <div class="field">
+                <img src="/topic.svg" alt="">
+                <label for="List">Select</label>
+                <select class="d2" name="select" id="List">
+                    <option value="1">Приобритение курсов</option>
+                    <option value="2">Проблема с покупкой</option>
+                    <option value="3">Другое</option>
+                </select>
+
+            </div>
+            <div class="field">
+                <label for="Coments">Коментарий</label>
+                <textarea class="d2" name="text" id="Coments" cols="30" rows="10" required
+                    placeholder="Коментарий"></textarea>
+
+            </div>
+            <button class="d2" type="submit" id="sup">Отправить</button>
+
+        </form>
+    </main>
+</body>
+
+</html>

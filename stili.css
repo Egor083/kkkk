@@ -1,0 +1,83 @@
+body {
+    background-color: #060608;
+}
+
+main {
+    background-color: #595b74;
+    border-radius: 10px;
+    padding: 48px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 48px auto 32px;
+}
+
+input,
+textarea,
+select {
+    color: white;
+    background: #2E2D3D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: sans-serif;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: 0px;
+    width: 100%;
+}
+
+input ::placeholder,
+textarea ::placeholder,
+select ::placeholder {
+    font-size: 16px;
+    color: #1e1f29;
+}
+
+
+
+
+label {
+    color: #AFB28F;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    font-family: sans-serif;
+
+}
+
+button {
+    color: white;
+    background-color: #6C38CC;
+    width: 697px;
+    height: 46px;
+    border-radius: 10px;
+    margin: 12px 303px;
+    padding: 12px 24px;
+    border: 0px;
+}
+
+form div {
+    padding-bottom: 16px;
+}
+
+.field {
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+
+}

@@ -1,0 +1,151 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    padding-left: 0px;
+}
+
+
+
+h1,
+h2 {
+    font-size: 48px;
+    color: #050038;
+}
+
+h2 {
+    margin-bottom: 19px;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(5, 0, 56, 60%);
+}
+
+button {
+    color: white;
+    background-color: #4262FF;
+}
+
+section {
+    padding: 0;
+    margin: 0px auto 210px 40px;
+}
+
+footer {
+    font-size: 16px;
+    color: white;
+    background-color: #050038;
+}
+
+li a {
+    color: #050038;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buttext {
+    font-size: 14px;
+}
+
+.navs {
+    border-bottom: 1px solid #F0F0F0;
+    margin-bottom: 60px;
+}
+
+.navi {
+    list-style: none;
+    padding: 0;
+    margin: 33px 50px;
+}
+
+.underh1 {
+    color: #050038;
+    font-size: 16px;
+    margin-bottom: 55px;
+    margin-top: 0px;
+}
+
+.aboutm {
+    color: #4262FF;
+    font-size: 18px;
+
+}
+
+.gglock {
+    margin-top: 70px;
+}
+
+.lisection {
+    list-style-image: url(/check1.jpg);
+    margin-bottom: 32px;
+
+}
+
+.place {
+    margin-bottom: 17px;
+}
+
+
+
+
+.works {
+    margin: 0px 0px 39px;
+}
+
+.foot {
+    padding: 47px 40px;
+
+}
+
+.lisection a {
+
+    color: rgba(5, 0, 56, 60%);
+}
+
+#email {
+    border-radius: 32px;
+    border: 1px solid #9b99af;
+    height: 48px;
+    width: 440px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+input[id="email"] {
+    margin-bottom: 10px;
+}
+
+button[id="email"] {
+    margin: 0px auto 8px;
+}
+
+a[class="lia"] {
+    color: #F0F0F0;
+}
+
+.exp div {
+    background-color: #050038;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: margin-left 2s;
+}
+
+.exp div:nth-child(1) {
+    margin-left: 400px;
+    transition-timing-function: ease-out;
+}
+
+.exp div:nth-child(2) {
+    margin-left: 400px;
+    transition-timing-function: ease-in;
+}
+
+.exp div:nth-child(3) {
+    margin-left: 400px;
+    transition-timing-function: linear;
+}
